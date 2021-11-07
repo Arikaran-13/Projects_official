@@ -21,8 +21,8 @@ void Alltodecimal(int n,int base){
         pv++; n=n/10;
 
     }
-cout<<sum;
-   decimaltoAll(sum,base);
+
+   decimaltoAll(sum,10);
 }
 int main(){
 while(1) {
